@@ -1,0 +1,4 @@
+/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/Debug/netstandard2.0/Omt.Infra.CrossCuting.csprojAssemblyReference.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/Debug/netstandard2.0/Omt.Infra.CrossCuting.AssemblyInfoInputs.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/Debug/netstandard2.0/Omt.Infra.CrossCuting.AssemblyInfo.cs
+/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/Debug/netstandard2.0/Omt.Infra.CrossCuting.csproj.CoreCompileInputs.cache

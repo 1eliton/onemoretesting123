@@ -18,3 +18,6 @@
 /home/eliton/vsprojects/onemoretesting123/Omt.Api/obj/Debug/netcoreapp3.1/Omt.Api.dll
 /home/eliton/vsprojects/onemoretesting123/Omt.Api/obj/Debug/netcoreapp3.1/Omt.Api.pdb
 /home/eliton/vsprojects/onemoretesting123/Omt.Api/obj/Debug/netcoreapp3.1/Omt.Api.genruntimeconfig.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.Api/bin/Debug/netcoreapp3.1/Omt.Domain.dll
+/home/eliton/vsprojects/onemoretesting123/Omt.Api/bin/Debug/netcoreapp3.1/Omt.Domain.pdb
+/home/eliton/vsprojects/onemoretesting123/Omt.Api/obj/Debug/netcoreapp3.1/Omt.Api.csproj.CopyComplete

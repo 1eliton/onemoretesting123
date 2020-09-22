@@ -26,7 +26,7 @@ namespace Omt.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.Configure<AppConfig>(Configuration.GetSection("AppConfig"));
+            services.Configure<Omt.Domain.AppConfig>(Configuration.GetSection("AppConfig"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

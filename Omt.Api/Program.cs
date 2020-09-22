@@ -17,6 +17,12 @@ namespace Omt.Api
         3. Uso de HttpClientFactory
         4. Devido tratamento de exceção
         5. Uso de DI
+        6. Uso de Swagger
+        7. Uso de ProduceResponseType
+        8. Testes de unidade e/ou de integracao
+        9. "documentacao minima"
+        10. Bom uso de HttpCodes nos retornos de apis
+        11. retornos de apis sao Task<ICollection> genericos
 
         https://drive.google.com/file/d/15NBGbmQO7FMnJDbR8Mm_QrJDSyw-5E5ss/view
     */

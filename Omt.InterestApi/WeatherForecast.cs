@@ -1,6 +1,6 @@
 using System;
 
-namespace Omt.Api
+namespace Omt.InterestApi
 {
     public class WeatherForecast
     {

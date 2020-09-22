@@ -1,11 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "w9sd0mj46mFIfYkRRV/nbZEYb/d3Mn560OMBjzlan5UZlExaK9h1wqthOlPXwaJLnfQxsvts5pojac2OkUYvag==",
+  "dgSpecHash": "QRmR1Gf1Y61Taz505wUeX9dN+i/K55LLScPceX6ig/2VfI7k4ZwZ+3l6j9D8QRV4zK/YKifMKU5aJAS4mdmePg==",
   "success": true,
   "projectFilePath": "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/Omt.Infra.CrossCuting.csproj",
   "expectedPackageFiles": [
+    "/home/eliton/.nuget/packages/microsoft.extensions.configuration/3.1.8/microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "/home/eliton/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.8/microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "/home/eliton/.nuget/packages/microsoft.extensions.primitives/3.1.8/microsoft.extensions.primitives.3.1.8.nupkg.sha512",
     "/home/eliton/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/home/eliton/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/home/eliton/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.configuration/2.0.5/system.configuration.2.0.5.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.configuration.configurationmanager/4.7.0/system.configuration.configurationmanager.4.7.0.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.security.cryptography.protecteddata/4.7.0/system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
+    "/home/eliton/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

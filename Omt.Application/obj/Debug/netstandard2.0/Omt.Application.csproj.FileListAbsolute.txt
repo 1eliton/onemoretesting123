@@ -1,0 +1,9 @@
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/bin/Debug/netstandard2.0/Omt.Application.deps.json
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/bin/Debug/netstandard2.0/Omt.Application.dll
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/bin/Debug/netstandard2.0/Omt.Application.pdb
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/obj/Debug/netstandard2.0/Omt.Application.csprojAssemblyReference.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/obj/Debug/netstandard2.0/Omt.Application.AssemblyInfoInputs.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/obj/Debug/netstandard2.0/Omt.Application.AssemblyInfo.cs
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/obj/Debug/netstandard2.0/Omt.Application.csproj.CoreCompileInputs.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/obj/Debug/netstandard2.0/Omt.Application.dll
+/home/eliton/vsprojects/onemoretesting123/Omt.Application/obj/Debug/netstandard2.0/Omt.Application.pdb

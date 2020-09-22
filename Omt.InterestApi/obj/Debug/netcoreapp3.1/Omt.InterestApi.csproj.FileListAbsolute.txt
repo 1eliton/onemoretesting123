@@ -1,0 +1,5 @@
+/home/eliton/vsprojects/onemoretesting123/Omt.InterestApi/obj/Debug/netcoreapp3.1/Omt.InterestApi.csprojAssemblyReference.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.InterestApi/obj/Debug/netcoreapp3.1/Omt.InterestApi.AssemblyInfoInputs.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.InterestApi/obj/Debug/netcoreapp3.1/Omt.InterestApi.AssemblyInfo.cs
+/home/eliton/vsprojects/onemoretesting123/Omt.InterestApi/obj/Debug/netcoreapp3.1/Omt.InterestApi.csproj.CoreCompileInputs.cache
+/home/eliton/vsprojects/onemoretesting123/Omt.InterestApi/obj/Debug/netcoreapp3.1/Omt.InterestApi.MvcApplicationPartsAssemblyInfo.cache
