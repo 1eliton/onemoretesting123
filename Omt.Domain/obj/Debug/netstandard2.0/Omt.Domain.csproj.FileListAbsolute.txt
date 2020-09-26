@@ -1,9 +1,0 @@
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\bin\Debug\netstandard2.0\Omt.Domain.deps.json
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\bin\Debug\netstandard2.0\Omt.Domain.dll
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\bin\Debug\netstandard2.0\Omt.Domain.pdb
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\obj\Debug\netstandard2.0\Omt.Domain.csprojAssemblyReference.cache
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\obj\Debug\netstandard2.0\Omt.Domain.AssemblyInfoInputs.cache
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\obj\Debug\netstandard2.0\Omt.Domain.AssemblyInfo.cs
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\obj\Debug\netstandard2.0\Omt.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\obj\Debug\netstandard2.0\Omt.Domain.dll
-C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Domain\obj\Debug\netstandard2.0\Omt.Domain.pdb
