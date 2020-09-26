@@ -1,8 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "binBib5YiiOdEmoekrx3L/234REAiKVlgfOcQJalBm7qoL1u81m+B8fR3hV9WwzdwNB3+4hB35qZ9InJOlWZlw==",
+  "dgSpecHash": "wPk5D6Svz+WZiAkVVe5Oks4nTy0egGLKkHLKyjpHuEHZEBkejoxhO7O5PC9/7EdKjp06SnLfFVF1DdepVXUQxQ==",
   "success": true,
-  "projectFilePath": "/home/eliton/vsprojects/onemoretesting123/Omt.Api/Omt.Api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Api\\Omt.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.8\\microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.http\\3.1.8\\microsoft.extensions.http.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.logging\\3.1.8\\microsoft.extensions.logging.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\tango\\3.1.2\\tango.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

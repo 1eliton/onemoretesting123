@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/home/eliton/vsprojects/onemoretesting123/Omt.Api/Omt.Api.csproj": {}
+    "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Api\\Omt.Api.csproj": {}
   },
   "projects": {
-    "/home/eliton/vsprojects/onemoretesting123/Omt.Api/Omt.Api.csproj": {
+    "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Api\\Omt.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eliton/vsprojects/onemoretesting123/Omt.Api/Omt.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Api\\Omt.Api.csproj",
         "projectName": "Omt.Api",
-        "projectPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Api/Omt.Api.csproj",
-        "packagesPath": "/home/eliton/.nuget/packages/",
-        "outputPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Api/obj/",
+        "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Api\\Omt.Api.csproj",
+        "packagesPath": "C:\\Users\\Eliton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/eliton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Eliton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj": {
-                "projectPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj"
+              "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Application\\Omt.Application.csproj": {
+                "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Application\\Omt.Application.csproj"
+              },
+              "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj": {
+                "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj"
               }
             }
           }
@@ -39,6 +44,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Tango": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,26 +80,98 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj": {
+    "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Application\\Omt.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj",
-        "projectName": "Omt.Domain",
-        "projectPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj",
-        "packagesPath": "/home/eliton/.nuget/packages/",
-        "outputPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/obj/",
+        "projectUniqueName": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Application\\Omt.Application.csproj",
+        "projectName": "Omt.Application",
+        "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Application\\Omt.Application.csproj",
+        "packagesPath": "C:\\Users\\Eliton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/eliton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Eliton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj": {
+                "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj"
+              },
+              "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Service\\Omt.Service.csproj": {
+                "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Service\\Omt.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Tango": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj",
+        "projectName": "Omt.Domain",
+        "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj",
+        "packagesPath": "C:\\Users\\Eliton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eliton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -110,7 +205,70 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Service\\Omt.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Service\\Omt.Service.csproj",
+        "projectName": "Omt.Service",
+        "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Service\\Omt.Service.csproj",
+        "packagesPath": "C:\\Users\\Eliton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eliton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Tango": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,9 +1,11 @@
+using System;
 using System.Threading.Tasks;
+using Tango.Types;
 
 namespace Omt.Application
 {
     public interface IInterestApplication
     {
-        Task<(bool success, double amount)> Calculate(double initialValue, double months);
+        Task<Either<Exception, double>> Calculate(double initialValue, double months);
     }
 }

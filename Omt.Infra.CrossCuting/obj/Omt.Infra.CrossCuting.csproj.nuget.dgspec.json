@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/Omt.Infra.CrossCuting.csproj": {}
+    "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Infra.CrossCuting\\Omt.Infra.CrossCuting.csproj": {}
   },
   "projects": {
-    "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj": {
+    "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj",
         "projectName": "Omt.Domain",
-        "projectPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj",
-        "packagesPath": "/home/eliton/.nuget/packages/",
-        "outputPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/obj/",
+        "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj",
+        "packagesPath": "C:\\Users\\Eliton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/eliton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Eliton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,33 +55,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/Omt.Infra.CrossCuting.csproj": {
+    "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Infra.CrossCuting\\Omt.Infra.CrossCuting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/Omt.Infra.CrossCuting.csproj",
+        "projectUniqueName": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Infra.CrossCuting\\Omt.Infra.CrossCuting.csproj",
         "projectName": "Omt.Infra.CrossCuting",
-        "projectPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/Omt.Infra.CrossCuting.csproj",
-        "packagesPath": "/home/eliton/.nuget/packages/",
-        "outputPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/",
+        "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Infra.CrossCuting\\Omt.Infra.CrossCuting.csproj",
+        "packagesPath": "C:\\Users\\Eliton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Infra.CrossCuting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/eliton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Eliton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj": {
-                "projectPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj"
+              "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj": {
+                "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj"
               }
             }
           }
@@ -94,6 +98,10 @@
         "netstandard2.0": {
           "dependencies": {
             "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
               "version": "[3.1.8, )"
             },
@@ -122,7 +130,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

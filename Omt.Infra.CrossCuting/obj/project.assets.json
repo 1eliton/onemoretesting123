@@ -26,6 +26,18 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/3.1.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.8"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
       "Microsoft.Extensions.Primitives/3.1.8": {
         "type": "package",
         "dependencies": {
@@ -226,6 +238,22 @@
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.8": {
+      "sha512": "l/oqIWRM4YF62mlCOrIKGUOCemsaID/lngK2SZEtpYI8LrktpjPd4QzvENWj5GebbLbqOtsFhF6Ko6dgzmUnBw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
     "Microsoft.Extensions.Primitives/3.1.8": {
@@ -723,6 +751,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.Extensions.Configuration >= 3.1.8",
+      "Microsoft.Extensions.Configuration.Binder >= 3.1.8",
       "NETStandard.Library >= 2.0.3",
       "Omt.Domain >= 1.0.0",
       "System.Configuration >= 2.0.5",
@@ -730,31 +759,33 @@
     ]
   },
   "packageFolders": {
-    "/home/eliton/.nuget/packages/": {}
+    "C:\\Users\\Eliton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/Omt.Infra.CrossCuting.csproj",
+      "projectUniqueName": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Infra.CrossCuting\\Omt.Infra.CrossCuting.csproj",
       "projectName": "Omt.Infra.CrossCuting",
-      "projectPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/Omt.Infra.CrossCuting.csproj",
-      "packagesPath": "/home/eliton/.nuget/packages/",
-      "outputPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/",
+      "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Infra.CrossCuting\\Omt.Infra.CrossCuting.csproj",
+      "packagesPath": "C:\\Users\\Eliton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Infra.CrossCuting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/eliton/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Eliton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj": {
-              "projectPath": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj"
+            "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj": {
+              "projectPath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj"
             }
           }
         }
@@ -769,6 +800,10 @@
       "netstandard2.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[3.1.8, )"
+          },
+          "Microsoft.Extensions.Configuration.Binder": {
             "target": "Package",
             "version": "[3.1.8, )"
           },
@@ -797,7 +832,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

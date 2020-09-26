@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YfRgHNJNcI3uAHMIKdSopowIfXmVvIcEKFLXuc6Wq3I8KLZaSXzUP76NeBELgmOz4kM5oc9fKtNjSW33XrygjA==",
+  "dgSpecHash": "fPnsHXsRFRtatcQbkz0jg6ZgBpuzheEzWC6KiSPknIu1Vilro34ZiFtNvdUU9y4CpzNq0yypyNIQfrTxA5AMbg==",
   "success": true,
-  "projectFilePath": "/home/eliton/vsprojects/onemoretesting123/Omt.Domain/Omt.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.Domain\\Omt.Domain.csproj",
   "expectedPackageFiles": [
-    "/home/eliton/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/home/eliton/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

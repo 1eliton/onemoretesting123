@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JGDyAJhR5tdotKZg4Y7ftHJA6w3aUWFeAuKBc0bzjHWBxO2tY9lOVDcVPGI8qFIZjmugKhVB2nibZqLx67n5KA==",
+  "dgSpecHash": "tzqLUsHGnDtkujNrWaMLqg0uzupAUnW/4apAOx/5tw5YlfZxlp2G1k/76DljiaifPmzpPLTRYYyhhKfwNhXDRg==",
   "success": true,
-  "projectFilePath": "/home/eliton/vsprojects/onemoretesting123/Omt.InterestApi/Omt.InterestApi.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Eliton\\Documents\\vsprojects\\onemoretesting123\\Omt.InterestApi\\Omt.InterestApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eliton\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Eliton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
   "logs": []
 }

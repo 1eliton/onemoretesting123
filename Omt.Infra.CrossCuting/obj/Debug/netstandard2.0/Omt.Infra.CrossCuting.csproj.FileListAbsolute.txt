@@ -1,4 +1,12 @@
-/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/Debug/netstandard2.0/Omt.Infra.CrossCuting.csprojAssemblyReference.cache
-/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/Debug/netstandard2.0/Omt.Infra.CrossCuting.AssemblyInfoInputs.cache
-/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/Debug/netstandard2.0/Omt.Infra.CrossCuting.AssemblyInfo.cs
-/home/eliton/vsprojects/onemoretesting123/Omt.Infra.CrossCuting/obj/Debug/netstandard2.0/Omt.Infra.CrossCuting.csproj.CoreCompileInputs.cache
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\bin\Debug\netstandard2.0\Omt.Infra.CrossCuting.deps.json
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\bin\Debug\netstandard2.0\Omt.Infra.CrossCuting.dll
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\bin\Debug\netstandard2.0\Omt.Infra.CrossCuting.pdb
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\bin\Debug\netstandard2.0\Omt.Domain.dll
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\bin\Debug\netstandard2.0\Omt.Domain.pdb
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\obj\Debug\netstandard2.0\Omt.Infra.CrossCuting.csprojAssemblyReference.cache
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\obj\Debug\netstandard2.0\Omt.Infra.CrossCuting.AssemblyInfoInputs.cache
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\obj\Debug\netstandard2.0\Omt.Infra.CrossCuting.AssemblyInfo.cs
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\obj\Debug\netstandard2.0\Omt.Infra.CrossCuting.csproj.CoreCompileInputs.cache
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\obj\Debug\netstandard2.0\Omt.Infra.CrossCuting.csproj.CopyComplete
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\obj\Debug\netstandard2.0\Omt.Infra.CrossCuting.dll
+C:\Users\Eliton\Documents\vsprojects\onemoretesting123\Omt.Infra.CrossCuting\obj\Debug\netstandard2.0\Omt.Infra.CrossCuting.pdb

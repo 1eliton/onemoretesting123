@@ -4,11 +4,16 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Threading.Tasks;
 using Omt.Application;
+using Microsoft.Extensions.Configuration;
+using Omt.Domain;
+using Microsoft.Extensions.Options;
 
 namespace Omt.Api.Controllers {
+    [ApiController, Route("[controller]")]
     public class InterestController : ControllerBase {
 
-        private readonly IInterestApplication _interestApplication; 
+        private readonly IInterestApplication _interestApplication;
+
         public InterestController(IInterestApplication interestApplication)
         {
             _interestApplication = interestApplication;
@@ -21,14 +26,14 @@ namespace Omt.Api.Controllers {
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [HttpGet()]
+        [HttpGet, Route("calculajuros")]
         public async Task<ActionResult> Calculate([FromQuery]double initialValue, [FromQuery]double months) 
         {
             try
             {
                 var calculo = await _interestApplication.Calculate(initialValue, months);
-                if (calculo.success)
-                    return Ok(calculo.amount);
+                //if (calculo.success)
+                //    return Ok(calculo.amount);
                 
                 return BadRequest();
             }
