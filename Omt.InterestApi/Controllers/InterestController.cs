@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Omt.Domain;
 
 namespace Omt.InterestApi.Controllers
 {
@@ -19,7 +20,10 @@ namespace Omt.InterestApi.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [HttpGet, Route("taxajuros")]
-        public async Task<ActionResult> GetInterestRate() 
-            => Ok(0.01);
+        public async Task<ActionResult<ApiResponse>> GetInterestRate()
+        {
+            return Ok(new ApiResponse().AddSuccess(0.01));
+        } 
+            
     }
 }

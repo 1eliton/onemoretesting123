@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Omt.Service;
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Tango.Types;
 
 namespace Omt.Services
 {
-    public class RequestHelper
+    public class RequestHelper : IRequestHelper
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
@@ -14,7 +15,7 @@ namespace Omt.Services
             _httpClientFactory = httpClientFactory;
         }
 
-        public async Task<Either<Exception, HttpResponseMessage>> Get(string requestUri)
+        public async Task<Option<HttpResponseMessage>> GetAsync(string requestUri)
         {
             try
             {
@@ -25,9 +26,9 @@ namespace Omt.Services
                 }
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                return e;
+                throw;
             }
         }
     }

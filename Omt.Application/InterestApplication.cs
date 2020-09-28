@@ -7,6 +7,7 @@ using Tango.Types;
 using Tango.Linq;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
+using Newtonsoft.Json;
 
 namespace Omt.Application
 {
@@ -14,6 +15,7 @@ namespace Omt.Application
     {
         private readonly AppConfig _appConfig;
         private readonly RequestHelper _requestHelper;
+        private const ushort DECIMALS = 2;
 
         public InterestApplication(IOptions<AppConfig> options, RequestHelper requestHelper)
         {
@@ -21,36 +23,30 @@ namespace Omt.Application
             _requestHelper = requestHelper;
         }
 
-        public async Task<Either<Exception, double>> Calculate(double initialValue, double months) 
+        public async Task<Option<double>> Calculate(double initialValue, double months) 
         {
             try
             {
                 if (!(initialValue > 0) != !(months > 0))
-                    throw new Exception("dados incorretos....");
+                    throw new ArgumentException("O valor inicial e/ou a quantidade de mes(es) informado(s) é inválido");
 
-                var response = await _requestHelper
-                    .Get(string.Concat(_appConfig.InterestRateUrl, _appConfig.InterestRateResource));
+                var apiResponse = await _requestHelper
+                    .GetAsync(string.Concat(_appConfig.InterestRateUrl, _appConfig.InterestRateResource));
 
-                if (response.ExistsRight(d => d.IsSuccessStatusCode))
+                if (apiResponse.IsSome)
                 {
+                    HttpResponseMessage apiResponseMessage =
+                        apiResponse.Match((r) => r, () => null);
 
-                    Either<bool, int> eitherValue = 10;
-                    int value = eitherValue.Match(
-                            methodWhenRight: number => number,
-                            methodWhenLeft: boolean => 0);
+                    var responseObject =  JsonConvert.DeserializeObject<ApiResponse>
+                        (await apiResponseMessage.Content.ReadAsStringAsync());
+                    var finalValue = Math.Pow((1 + Convert.ToDouble(responseObject.Content)), months) * initialValue;
 
-                    //value = 10
+                    return Math.Round(finalValue, DECIMALS);
 
-                    //HttpResponseMessage x = response.Match(methodWhenRight: res => res.Content, methodWhenLeft: ex => ex);
-                    
-                    
-                    //var rate = await response..Content.ReadAsStringAsync();
-                    //var juros = Convert.ToDouble(rate);
-                    //var valorFinal = Math.Pow((1 + juros), months) * initialValue;
-                    //return (true, Math.Round(valorFinal, 2));
                 }
 
-                throw new Exception("Erro ao calcular juros...");
+                throw new Exception("Erro ao calcular juros. Tente novamente.");
 
             }
             catch (Exception)

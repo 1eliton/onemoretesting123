@@ -15,6 +15,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Omt.Application;
 using Omt.Services;
+using Newtonsoft.Json;
 
 namespace Omt.Api
 {
@@ -30,8 +31,10 @@ namespace Omt.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-
+            services.AddControllers()
+                // ignora referencia em looping ao trabalhar com json
+                .AddNewtonsoftJson(a => a.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
+                
             services.Configure<Omt.Domain.AppConfig>(Configuration.GetSection("AppConfig"));
             services.AddHttpClient();
 

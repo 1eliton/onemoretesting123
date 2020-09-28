@@ -6,6 +6,6 @@ namespace Omt.Application
 {
     public interface IInterestApplication
     {
-        Task<Either<Exception, double>> Calculate(double initialValue, double months);
+        Task<Option<double>> Calculate(double initialValue, double months);
     }
 }

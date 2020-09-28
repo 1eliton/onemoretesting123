@@ -18,7 +18,6 @@ namespace Omt.Api
         9. "documentacao minima"
         10. Bom uso de HttpCodes nos retornos de apis
         11. retornos de apis sao Task<ICollection> genericos
-        12. Uso de FluentValidation: https://medium.com/@berilkavakli/fluent-validation-on-net-core-api-3-1-f01ff4a4c6f5
 
         https://drive.google.com/file/d/15NBGbmQO7FMnJDbR8Mm_QrJDSyw-5E5ss/view
     */
