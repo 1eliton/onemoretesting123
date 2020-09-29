@@ -1,8 +1,10 @@
 using Microsoft.Extensions.DependencyInjection;
 using Omt.Application;
+using Omt.Domain;
 using System;
 using System.Threading.Tasks;
 using Xunit;
+using Tango;
 
 namespace Omt.Test
 {
@@ -10,7 +12,7 @@ namespace Omt.Test
     {
         
         private IInterestApplication _interestApplication;
-
+        
         public GeneralTests(IntegrationTestFixture fixture)
         {
             _interestApplication = fixture.ServiceProvider.GetRequiredService<IInterestApplication>();
@@ -25,8 +27,9 @@ namespace Omt.Test
         [Fact]
         public async Task DeveGarantirQueJurosSejaCalculado()
         {
-            var calculo = _interestApplication.Calculate(100, 24).GetAwaiter().GetResult();
-            Assert.NotEqual(0, calculo);
+            var calculo = _interestApplication.Calculate(100, 24)
+                .GetAwaiter().GetResult();
+            Assert.False(calculo.IsNone);
         }
 
         /// <summary>

@@ -35,7 +35,7 @@ namespace Omt.Api
                 // ignora referencia em looping ao trabalhar com json
                 .AddNewtonsoftJson(a => a.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
                 
-            services.Configure<Omt.Domain.AppConfig>(Configuration.GetSection("AppConfig"));
+            services.Configure<Domain.AppConfig>(Configuration.GetSection("AppConfig"));
             services.AddHttpClient();
 
             services.AddSingleton<RequestHelper>();
