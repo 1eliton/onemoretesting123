@@ -27,7 +27,7 @@ namespace Omt.Application
         {
             try
             {
-                if (!(initialValue > 0) != !(months > 0))
+                if (!(initialValue > 0) || !(months > 0))
                     throw new ArgumentException("O valor inicial e/ou a quantidade de mes(es) informado(s) é inválido");
 
                 var apiResponse = await _requestHelper
