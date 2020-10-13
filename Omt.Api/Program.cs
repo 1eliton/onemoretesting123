@@ -18,6 +18,7 @@ namespace Omt.Api
         9. Documentacao minima
         10. Bom uso de HttpCodes nos retornos de apis
         11. Retornos de apis sao Task<ICollection> genericos
+        12. Uso de docker no azure: https://medium.com/@gbbigardi/utilizando-containers-docker-para-apis-em-asp-net-core-com-web-app-on-containers-afb12fbeb366
 
         https://drive.google.com/file/d/15NBGbmQO7FMnJDbR8Mm_QrJDSyw-5E5ss/view
     */

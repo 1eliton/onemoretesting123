@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omt.InterestApi", "Omt.Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omt.Service", "Omt.Service\Omt.Service.csproj", "{267328F5-6792-4105-95C0-07A0290180A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omt.Test", "Omt.Test\Omt.Test.csproj", "{231C0D4D-8086-44FF-B016-4E1A5245EDA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omt.Test", "Omt.Test\Omt.Test.csproj", "{231C0D4D-8086-44FF-B016-4E1A5245EDA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
